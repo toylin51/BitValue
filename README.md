@@ -1,5 +1,5 @@
 # BitValue
-Swift study work<p>
+Swift study<p>
 to see the exchange rate of virtual currency<p>
 using the data from Crypto-Currency Market http://coinmarketcap.com/api/ <p>
 <p>
