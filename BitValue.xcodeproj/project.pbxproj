@@ -47,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BA944421E44B63B0085C30F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B4221061E31CF11003DF50B /* VCViewController.swift */,
+				7BF37CA71E2BB97F00CB7179 /* CustomTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7BA944431E44B6460085C30F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BF37C971E2A65DA00CB7179 /* ViewController.swift */,
+				7BF37CAB1E30EF3800CB7179 /* EditViewController.swift */,
+				7BF37CA91E2D291800CB7179 /* SearchViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7BA944441E44B6570085C30F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EADB91E310C4400753104 /* UITableViewExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		7BF37C891E2A65DA00CB7179 = {
 			isa = PBXGroup;
 			children = (
@@ -67,17 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				7BF37C951E2A65DA00CB7179 /* AppDelegate.swift */,
-				7BF37C971E2A65DA00CB7179 /* ViewController.swift */,
-				7BF37CAB1E30EF3800CB7179 /* EditViewController.swift */,
-				7BF37CA91E2D291800CB7179 /* SearchViewController.swift */,
-				7BF37C991E2A65DB00CB7179 /* Main.storyboard */,
-				7B4221061E31CF11003DF50B /* VCViewController.swift */,
-				7BF37CA71E2BB97F00CB7179 /* CustomTableViewCell.swift */,
+				7BA944431E44B6460085C30F /* Controller */,
+				7BA944421E44B63B0085C30F /* View */,
+				7BA944441E44B6570085C30F /* Extension */,
 				7BF37C9C1E2A65DB00CB7179 /* Assets.xcassets */,
+				7BF37C991E2A65DB00CB7179 /* Main.storyboard */,
 				7BF37C9E1E2A65DB00CB7179 /* LaunchScreen.storyboard */,
 				7BF37CA11E2A65DB00CB7179 /* Info.plist */,
 				7BF37CAD1E3102EF00CB7179 /* VirtualCurrency.plist */,
-				7B4EADB91E310C4400753104 /* UITableViewExtension.swift */,
 			);
 			path = BitValue;
 			sourceTree = "<group>";
