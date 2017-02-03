@@ -101,6 +101,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         //改變顯示虛擬貨幣的資訊
         for dictionary in json{
             let myVC = vc[indexPath.row] as! String
